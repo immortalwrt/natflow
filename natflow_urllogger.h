@@ -5,6 +5,7 @@
 #ifndef _NATFLOW_URLLOGGER_H_
 #define _NATFLOW_URLLOGGER_H_
 
-
+extern int natflow_urllogger_init(void);
+extern void natflow_urllogger_exit(void);
 
 #endif /* _NATFLOW_URLLOGGER_H_ */
